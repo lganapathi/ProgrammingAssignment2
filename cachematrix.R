@@ -3,6 +3,7 @@
 ## together allow the caching of the inverse of a matrix.
 ## Existence of an inverse is assumed and no error checking is done.
 
+
 ## Function "makeCacheMatrix" returns four functions respectively to:
 ## 1: set the value of the matrix
 ## 2: get the value of the matrix
@@ -37,4 +38,8 @@ cacheSolve <- function(x, ...) {
     inv <- solve(data)
     x$setinverse(inv)
     inv        
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ff8457f4b48acedb68f598c533adf233e66487ba
